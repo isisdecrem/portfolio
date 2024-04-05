@@ -5,17 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Page</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+      .custom-background{
+        background: linear-gradient(to right, pink, orange); /* Gradient from pink to orange */
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0; /* Remove default margin */
+      }
+      
+    </style>
   </head>
-    <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <span class="navbar-brand mb-0 h1">Navbar</span>
-    </div>
-    </nav>
-      <p class=".bg-info-subtle" style="--bs-bg-opacity: .5;">
-        <h1></h1>
-        
-      </p> 
+    <body class="custom-background">
+    
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">Navbar</span>
+        </div>
+      </nav>
+      
+      <h1></h1>
+
 
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
